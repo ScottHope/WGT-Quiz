@@ -1,0 +1,15 @@
+<div style="font: 2.2em tahoma; text-shadow: 1px 1px 1px #fff; text-align: center; font-variant: small-caps; background: #bebeff url(https://imgur.com/BGsDbT4.png); color: #1d15ff; background-blend-mode: luminosity; background-size: 100% 100%; box-shadow: 0 0 10px 1px #000 inset,0 0 3px #000; padding: 6px 0 9px 0; border-radius: 25px; border: 4.5px inset lavender; display: block; margin: 10px auto; width: 97%;" class="pimpheader">Pimp My Profile</div>
+<div class="pimpscript" style="display: none; -webkit-user-select: all; -moz-user-select: all; -ms-user-select: all; user-select: all; font: 1.1em tahoma; color: blue; white-space: nowrap; margin: 0px 0px 10px 2px; border-radius: 5px; background: aliceblue; padding: 14px 20px; border: 4.5px inset lavender; width: 490px; box-shadow: #333333 0px 0px 10px 1px inset, #000000 0px 0px 3px;">
+// *** PIMP MY PROFILE v23.02.2018.7 ***<br />
+var pimpscript = document.createElement("script");<br />
+pimpscript.setAttribute("src","https://pastebin.com/raw/cBCCBj5M");<br />
+pimpscript.setAttribute("type","text/javascript");<br />
+document.body.appendChild(pimpscript);<br />
+//END
+</div>
+<div class="pimpscript" style="word-break: break-all; -webkit-user-select: all; -moz-user-select: all; -ms-user-select: all; user-select: all; font: 1.1em tahoma; color: blue; margin: 0px 0px 10px 2px; border-radius: 5px; background: aliceblue; padding: 14px 20px; border: 4.5px inset lavender; width: 490px; box-shadow: #333333 0px 0px 10px 1px inset, #000000 0px 0px 3px;">
+// *** PIMP MY PROFILE v20.11.2018.2 ***<br />
+$("&lt;script&gt;").attr({src:"https://pastebin.com/raw/cBCCBj5M/",type:"text/javascript"}).appendTo("body");<br />
+//END
+</div>
+<p style="font:1.3em tahoma;text-shadow:1px 1px 1px #d6d6d6;" class="instructions2">To pimp my profile you'll need to use the Javascript in the blue box above. Read the <strong>Javascript Instructions</strong> (below) or watch the <a href="https://www.youtube.com/watch?v=Q1XeeAgOzac" target="_blank">video</a>&nbsp;to see how to do this.</p>
