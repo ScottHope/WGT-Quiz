@@ -194,11 +194,11 @@ npbox.id = "nowplaying";
 document.body.appendChild(npbox);
 parent1.addEventListener("mouseleave",endCk);
 parent1.addEventListener("mouseenter",startCk);
-for (i=0; i<5; i++){
+for (i=0; i<6; i++){
 radiobtn = document.createElement("input");
 radiobtn.type = "radio";
 radiobtn.name = "theme";
-npbox.appendChild(radiobtn;);
+npbox.appendChild(radiobtn);
 }
 function volume(){
 if(player.isMuted){player.unMute()};
