@@ -322,5 +322,8 @@ $(".RightSideButton.tip7").tooltip({content:"Some YouTube videos won't play on W
 $(".RightSideButton.tip8").tooltip({content:"WGT countries & golf courses, where are they?"});
 $(".RightSideButton.tip9").tooltip({content:"Keep track of your tracks"});
 },5000);
+/*
+Randomize theme colour
+*/
 document.querySelectorAll("#themecont input[type=radio]")[Math.floor(Math.random()*6)].click();
 //end
