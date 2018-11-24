@@ -404,4 +404,12 @@
  #profileTagHeader, .profileTagScoreBody{
     background:var(--wgtmenu);
 }
- 
+.datatable th{
+    background:var(--tools);color:#fff;text-shadow:var(--txtshdw);
+}
+.datatable tbody tr:nth-child(even){
+    background:var(--wgtmenu);
+}
+.datatable tbody tr:nth-child(odd){
+    background:var(--btnbg);
+}
