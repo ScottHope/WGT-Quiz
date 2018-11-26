@@ -411,11 +411,14 @@
     background:var(--wgtmenu);
 }
 .datatable tbody tr:nth-child(odd){
-    background:var(--btnbg);
+    background:none;
 }
 .subheaders{
 	font: 1.1em open sans condensed;
     background: linear-gradient(90deg,#fff,#0000);
     padding: 2px 8px;
     border-radius: 2px;
+}
+#progress_meter_wrapper{
+	margin-bottom:10px;
 }
