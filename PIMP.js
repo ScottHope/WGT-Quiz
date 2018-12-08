@@ -109,6 +109,9 @@ overlayimgs[1].outerHTML = "<div class=\"overlaybtns\">STATS</div>"
 overlayimgs[2].outerHTML = "<div class=\"overlaybtns\">APPEARANCE</div>"
 overlayimgs[3].outerHTML = "<div class=\"overlaybtns\">EQUIPMENT</div>"
 overlayimgs[4].outerHTML = "<div class=\"overlaybtns\">SCORE HISTORY</div>"
+/*
+Add div for status light and apply colour for current status
+*/
 let div1 = document.createElement("div");
 div1.id = "statusLamp";
 playerStatus.insertBefore(div1,playerStatus.childNodes[1]);
