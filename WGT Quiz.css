@@ -2,3 +2,7 @@ body{
     font:1em tahoma;
 }
 
+.answer{
+    max-width:100%;
+}
+
