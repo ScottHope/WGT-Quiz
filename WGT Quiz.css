@@ -13,15 +13,16 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    gap: 0.2em;
 }
 
 .answer {
-    display: none;
+    max-width:100%;
 }
 
 .heading {
     padding: 0.5em 1em;
+    background: #00529e;
 }
 
 .sub1 {
@@ -31,7 +32,7 @@ body {
 }
 
 .sub2 {
-    width: 100%;
+    flex: 1;
     text-align: center;
 }
 
@@ -40,7 +41,10 @@ body {
     font-size: 1.5em;
 }
 
-.footer {}
+.footer {
+    flex: 1;
+    text-align:center;
+}
 
 .reveal {
     max-width: 100%;
@@ -48,6 +52,12 @@ body {
 
 .image-container{
     flex: 1;
+    display:flex;
+    justify-content: center;
+}
+
+.answer-container{
+    width:100%;
 }
 
 .caption {
@@ -58,6 +68,8 @@ body {
 
 .guess-list {
     flex: 1;
+    margin:2em;
+    display:none;
 }
 
 .break {}
