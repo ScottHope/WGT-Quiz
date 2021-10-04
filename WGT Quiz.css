@@ -68,6 +68,7 @@ body {
     width:100%;
     display:flex;
     justify-content: center;
+    background: #00529e;
 }
 
 .caption {
