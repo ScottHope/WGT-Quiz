@@ -30,12 +30,14 @@ body {
     flex: 1;
     font-size: 1.5em;
     text-align: end;
-    animation: sub1-animation 1s;
+    transform: translateX(150%);
+    animation: sub1-animation 1s 1000ms forwards;
 }
 
 .sub2 {
     flex: 1;
-    animation: sub2-animation 1s;
+    transform: translateY(-250%);
+    animation: sub2-animation 1s 500ms forwards;
 }
 
 .sub3{
@@ -45,7 +47,8 @@ body {
 .main {
     flex: 1;
     font-size: 1.5em;
-    animation: main-animation 1s;
+    /* transform:translateX(-150%); */
+    animation: main-animation 1s forwards;
 }
 
 @keyframes main-animation {
