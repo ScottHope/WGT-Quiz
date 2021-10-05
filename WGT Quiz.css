@@ -30,11 +30,12 @@ body {
     flex: 1;
     font-size: 1.5em;
     text-align: end;
+    animation: sub1-animation 1s;
 }
 
 .sub2 {
     flex: 1;
-    /* text-align: center; */
+    animation: sub2-animation 1s;
 }
 
 .sub3{
@@ -44,6 +45,22 @@ body {
 .main {
     flex: 1;
     font-size: 1.5em;
+    animation: main-animation 1s;
+}
+
+@keyframes main-animation {
+    0% {transform:translateX(-150%);}
+    100% {transform:translateX(0%);}
+}
+
+@keyframes sub2-animation {
+    0% {transform:translateY(-250%);}
+    100% {transform:translateY(0%);}
+}
+
+@keyframes sub1-animation {
+    0% {transform:translateX(150%);}
+    100% {transform:translateX(0%);}
 }
 
 .footer {
@@ -107,8 +124,5 @@ body {
     text-align:center;
 }
 .image-container{order: 1;}
-.guess-container{order: 2;}
-#answer{order: 2;}
-.answer-container{order: 2;}
-.footer{order: 2;}
+.guess-container, .answer-container, #answer, .answer-container, .footer{order: 2;}
 }
