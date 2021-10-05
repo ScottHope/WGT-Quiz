@@ -47,7 +47,6 @@ body {
 .main {
     flex: 1;
     font-size: 1.5em;
-    /* transform:translateX(-150%); */
     animation: main-animation 500ms forwards;
 }
 
@@ -128,4 +127,14 @@ body {
 }
 .image-container{order: 1;}
 .guess-container, .answer-container, #answer, .answer-container, .footer{order: 2;}
+
+.sub2 {
+    transform:translateX(150%);
+    animation: sub1-animation 500ms 250ms forwards;
+}
+
+.sub1 {
+    transform: translateX(-150%);
+    animation: main-animation 500ms 500ms forwards;
+}
 }
