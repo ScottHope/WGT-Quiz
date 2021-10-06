@@ -8,6 +8,7 @@ body {
     color: #fff;
     background: cornflowerblue;
     padding: 1em;
+    overflow:auto;
 }
 
 .container {
