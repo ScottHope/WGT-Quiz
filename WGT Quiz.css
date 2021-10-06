@@ -8,7 +8,6 @@ body {
     color: #fff;
     background: cornflowerblue;
     padding: 1em;
-    overflow:auto;
 }
 
 .container {
@@ -31,14 +30,10 @@ body {
     flex: 1;
     font-size: 1.5em;
     text-align: end;
-    transform: translateX(150%);
-    animation: sub1-animation 500ms 500ms forwards;
 }
 
 .sub2 {
     flex: 1;
-    transform: translateY(-250%);
-    animation: sub2-animation 500ms 250ms forwards;
 }
 
 .sub3{
@@ -48,22 +43,6 @@ body {
 .main {
     flex: 1;
     font-size: 1.5em;
-    animation: main-animation 500ms forwards;
-}
-
-@keyframes main-animation {
-    0% {transform:translateX(-150%);}
-    100% {transform:translateX(0%);}
-}
-
-@keyframes sub2-animation {
-    0% {transform:translateY(-250%);}
-    100% {transform:translateY(0%);}
-}
-
-@keyframes sub1-animation {
-    0% {transform:translateX(150%);}
-    100% {transform:translateX(0%);}
 }
 
 .footer {
@@ -128,14 +107,4 @@ body {
 }
 .image-container{order: 1;}
 .guess-container, .answer-container, #answer, .answer-container, .footer{order: 2;}
-
-.sub2 {
-    transform:translateX(150%);
-    animation: sub1-animation 500ms 250ms forwards;
-}
-
-.sub1 {
-    transform: translateX(-150%);
-    animation: main-animation 500ms 500ms forwards;
-}
 }
